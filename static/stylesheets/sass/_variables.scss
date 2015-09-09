@@ -1,0 +1,19 @@
+// Colors
+
+
+/*$exemple-palettes: (
+    colors1: (section1: #540665, section2: #e9024e, section3: #003366),
+    colors2: (section1: #830000, section2: #e9024e, section3: #00500A),
+);
+
+
+@each $index in 1,2,3  {
+    %background-section#{$index} {
+        @each $pallete, $colors in $exemple-palettes {
+           .cop-pallete-#{$pallete} & {
+                background-color: map-get($colors, section#{$index});
+            } 
+        }
+    }
+}
+*/
