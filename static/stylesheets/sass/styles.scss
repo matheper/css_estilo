@@ -21,19 +21,9 @@ body {
         font-size: 50px;
     }
 
-    #section1{
-        @extend %background-section1;
+    .slide{
+        min-height: 600px;
         padding: 15px;
         text-align: right;
-    }
-    #section2{
-        background-color:#e9024e;
-        text-align: right;
-        padding: 15px;
-    }
-    #section3{
-        background-color: #003366;
-        text-align: right;
-        padding: 15px;
     }
 }

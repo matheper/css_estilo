@@ -1,19 +1,22 @@
 // Colors
 
 
-/*$exemple-palettes: (
-    colors1: (section1: #540665, section2: #e9024e, section3: #003366),
-    colors2: (section1: #830000, section2: #e9024e, section3: #00500A),
+
+$palette: (
+	first: (#540665 #003366 #CF06B7),
+	second: (#4D157F #0F4465 #B3348A)
 );
 
-
-@each $index in 1,2,3  {
-    %background-section#{$index} {
-        @each $pallete, $colors in $exemple-palettes {
-           .cop-pallete-#{$pallete} & {
-                background-color: map-get($colors, section#{$index});
-            } 
-        }
+@each $class, $colors in $palette{
+    .#{$class} {
+    	.slide:nth-child(3n+0){
+    		background-image: linear-gradient(to bottom,  nth($colors, 1), nth($colors, 2) 100%);
+    	}
+    	.slide:nth-child(3n+1){
+    		background-image: linear-gradient(to bottom,  nth($colors, 2), nth($colors, 3) 100%);
+    	}
+    	.slide:nth-child(3n+2){
+    		background-image: linear-gradient(to bottom,  nth($colors, 3), nth($colors, 1) 100%);
+    	}
     }
 }
-*/
