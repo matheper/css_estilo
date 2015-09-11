@@ -48,8 +48,16 @@ body {
 /* line 22, ../sass/styles.scss */
 .wrapper #slide1 #change-color {
   float: right;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-/* line 25, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
+.wrapper #slide1 #change-color:hover {
+  background-color: #540665;
+}
+/* line 32, ../sass/styles.scss */
 .wrapper #slide1 h1 {
   margin: 10px 0;
   font-family: "Lobster";
@@ -57,13 +65,13 @@ body {
   text-align: left;
   font-weight: normal;
 }
-/* line 34, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .wrapper .page {
   min-height: 1200px;
   padding: 15px;
   text-align: right;
 }
-/* line 39, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 .wrapper .page .slide {
   padding: 10px;
   width: 800px;
@@ -71,7 +79,7 @@ body {
   margin: 0 auto;
   border: 3px solid black;
 }
-/* line 45, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .wrapper .page .slide .title {
   font-weight: normal;
   font-size: 50px;
