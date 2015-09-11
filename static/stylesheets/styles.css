@@ -85,6 +85,18 @@ body {
   font-size: 50px;
 }
 /* line 62, ../sass/styles.scss */
+.wrapper .page #slide6 .content .img_css, .wrapper .page #slide6 .content .img_sass {
+  float: left;
+}
+/* line 65, ../sass/styles.scss */
+.wrapper .page #slide6 .content .img_css img, .wrapper .page #slide6 .content .img_sass img {
+  width: 395px;
+}
+/* line 69, ../sass/styles.scss */
+.wrapper .page #slide6 .content .img_sass {
+  margin-right: 10px;
+}
+/* line 77, ../sass/styles.scss */
 .wrapper.second {
   color: #656565;
 }

@@ -57,6 +57,21 @@ body {
                 font-size: 50px;
             }
         }
+        #slide6{
+            .content{
+                .img_css{
+                    float: left;
+                    
+                    img{
+                        width: 395px;
+                    }
+                }
+                .img_sass{
+                    @extend .img_css;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 
     &.second{
