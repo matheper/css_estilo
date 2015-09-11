@@ -67,7 +67,7 @@ body {
 }
 /* line 42, ../sass/styles.scss */
 .wrapper .page {
-  min-height: 1200px;
+  height: 1200px;
   padding: 15px;
   text-align: right;
 }
@@ -77,9 +77,8 @@ body {
   width: 800px;
   height: 600px;
   margin: 0 auto;
-  border: 3px solid black;
 }
-/* line 53, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .wrapper .page .slide .title {
   font-weight: normal;
   font-size: 50px;
