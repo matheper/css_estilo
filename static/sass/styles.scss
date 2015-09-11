@@ -1,4 +1,5 @@
 @import "variables";
+
 @font-face{
     font-family: "Lobster";
     src:url("../fonts/Lobster_1.3.otf");
@@ -10,24 +11,24 @@
 
 body {
     font: 100% Ubuntu, Arial, FreeSans, sans-serif;
-    color: #FFFFFF;
     margin: 0px;
 }
 
 .wrapper{
     width: 100%;
-    color: #FFFFFF;
+    color: $text-light;
 
     #slide1{
         #change-color{
             float:right;
             border: 1px solid;
-            padding: 10px;
+            padding: $padding-default;
             border-radius: 4px;
             cursor:pointer;
         }
         #change-color:hover{
-            background-color:#540665;
+            background-color:$violet-dark;
+            color: $text-light;
         }
         h1{
             margin:10px 0;
@@ -41,19 +42,24 @@ body {
 
     .page{
         height: 1200px;
-        padding: 15px;
+        padding: $padding-default;
         text-align: right;
 
         .slide{
-            padding:10px;
+            padding:$padding-default;
             width: 800px;
             height: 600px;
             margin: 0 auto;
             border: 3px solid black;
+            
             .title{
                 font-weight:normal;
                 font-size: 50px;
             }
         }
+    }
+
+    &.second{
+        color: $text-dark;
     }
 }
