@@ -1,10 +1,16 @@
 // Colors
 
+$text-light: #FFFFFF;
+$text-dark: #656565;
+
+
 $palette: (
     first: (#540665 #003366 #CF06B7),
-    second: (#4D157F #0F4465 #B3348A)
-);
+    second: (#C1E0E0 #C1E0E0 #FFFFFF),
+    third:  (#4D157F #0F4465 #B3348A)
 
+);
+// E480F2
 @each $class, $colors in $palette{
     .#{$class} {
         .page:nth-child(3n+0){
