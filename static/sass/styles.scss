@@ -56,6 +56,18 @@ body {
                 font-weight:normal;
                 font-size: 50px;
             }
+
+            .description-item{
+                display: block;
+                font-size: 25px;
+                margin-top: 10px;
+
+                &.small{
+                    font-size:20px;
+                    margin-top:0px;
+                }
+            }
+
         }
     }
 

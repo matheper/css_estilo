@@ -84,7 +84,18 @@ body {
   font-weight: normal;
   font-size: 50px;
 }
-/* line 62, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
+.wrapper .page .slide .description-item {
+  display: block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+/* line 65, ../sass/styles.scss */
+.wrapper .page .slide .description-item.small {
+  font-size: 20px;
+  margin-top: 0px;
+}
+/* line 74, ../sass/styles.scss */
 .wrapper.second {
   color: #656565;
 }
