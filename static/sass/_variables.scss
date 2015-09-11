@@ -7,13 +7,13 @@ $palette: (
 
 @each $class, $colors in $palette{
     .#{$class} {
-        .slide:nth-child(3n+0){
+        .page:nth-child(3n+0){
             background-image: linear-gradient(to bottom,  nth($colors, 1), nth($colors, 2) 100%);
         }
-        .slide:nth-child(3n+1){
+        .page:nth-child(3n+1){
             background-image: linear-gradient(to bottom,  nth($colors, 2), nth($colors, 3) 100%);
         }
-        .slide:nth-child(3n+2){
+        .page:nth-child(3n+2){
             background-image: linear-gradient(to bottom,  nth($colors, 3), nth($colors, 1) 100%);
         }
     }
