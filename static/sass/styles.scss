@@ -1,4 +1,5 @@
 @import "variables";
+
 @font-face{
     font-family: "Lobster";
     src:url("../fonts/Lobster_1.3.otf");
@@ -10,13 +11,12 @@
 
 body {
     font: 100% Ubuntu, Arial, FreeSans, sans-serif;
-    color: #FFFFFF;
     margin: 0px;
 }
 
 .wrapper{
     width: 100%;
-    color: #FFFFFF;
+    color: $text-light;
 
     #slide1{
         #change-color{
@@ -47,5 +47,9 @@ body {
                 font-size: 50px;
             }
         }
+    }
+
+    &.second{
+        color: $text-dark;
     }
 }
