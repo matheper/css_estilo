@@ -79,12 +79,12 @@ body {
   margin: 0 auto;
   border: 3px solid black;
 }
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .wrapper .page .slide .title {
   font-weight: normal;
   font-size: 50px;
 }
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .wrapper.second {
   color: #656565;
 }
