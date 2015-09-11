@@ -22,12 +22,13 @@ body {
         #change-color{
             float:right;
             border: 1px solid;
-            padding: 10px;
+            padding: $padding-default;
             border-radius: 4px;
             cursor:pointer;
         }
         #change-color:hover{
-            background-color:#540665;
+            background-color:$violet-dark;
+            color: $text-light;
         }
         h1{
             margin:10px 0;
@@ -41,11 +42,11 @@ body {
 
     .page{
         min-height: 1200px;
-        padding: 15px;
+        padding: $padding-default;
         text-align: right;
 
         .slide{
-            padding:10px;
+            padding:$padding-default;
             width: 800px;
             height: 600px;
             margin: 0 auto;
