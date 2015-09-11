@@ -84,6 +84,7 @@ body {
   font-weight: normal;
   font-size: 50px;
 }
+<<<<<<< HEAD
 /* line 62, ../sass/styles.scss */
 .wrapper .page #slide6 .content .img_css, .wrapper .page #slide6 .content .img_sass {
   float: left;
@@ -97,6 +98,20 @@ body {
   margin-right: 10px;
 }
 /* line 77, ../sass/styles.scss */
+=======
+/* line 60, ../sass/styles.scss */
+.wrapper .page .slide .description-item {
+  display: block;
+  font-size: 25px;
+  margin-top: 10px;
+}
+/* line 65, ../sass/styles.scss */
+.wrapper .page .slide .description-item.small {
+  font-size: 20px;
+  margin-top: 0px;
+}
+/* line 74, ../sass/styles.scss */
+>>>>>>> 2daf22ecc3f09d566a6eb0f89604b424e8e4d092
 .wrapper.second {
   color: #656565;
 }
