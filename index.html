@@ -62,17 +62,54 @@
                 </div>
                 <div class="page">
                     <div id="slide4" class="slide">
-                        <h2 class="title">CSS</h2>
+                        <h2 class="title"></h2>
                         <div class="content">
-                            <span class="description-item"></span>
+                            <h3 class="description-item large">
+                                Páginas web evoluiram para sistemas completos de informação
+                            </h3>
+                            <span class="description-item">Códigos maiores</span>
+                            <span class="description-item">Mais complexos</span>
+                            <span class="description-item">Pouco reúso</span>
+                            <span class="description-item">Difícil manutenção</span>
                         </div>
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide5" class="slide">
+                    <div id="slide4" class="slide">
                         <h2 class="title">Pré-Processadores</h2>
                         <div class="content">
-                            <span class="description-item"></span>
+                            <span class="description-item">
+                                Programas que recebem uma entrada
+                            </span>
+                            <span class="description-item">
+                                efetuando conversões em seu conteúdo que podem incluir
+                            </span>
+                            <span class="description-item">
+                                substituições e inclusões condicionais
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div id="slide4" class="slide">
+                        <h2 class="title">Pré-Processadores</h2>
+                        <div class="content">
+                            <span class="description-item">Variáveis</span>
+                            <span class="description-item">Operadores Aritméticos</span>
+                            <span class="description-item">Aninhamento</span>
+                            <span class="description-item">Importação</span>
+                            <span class="description-item">Mixins</span>
+                            <span class="description-item">Funções</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div id="slide4" class="slide">
+                        <h2 class="title">Pré-Processadores</h2>
+                        <div class="content">
+                            <span class="description-item large">Sass</span>
+                            <span class="description-item large">Less</span>
+                            <span class="description-item large">Stylus</span>
                         </div>
                     </div>
                 </div>
@@ -93,6 +130,21 @@
                 </div>
                 <div class="page">
                     <div id="slide7" class="slide">
+                        <h2 class="title">Pseudo-Elementos</h2>
+                        <div class="content">
+                            <div class="img_sass">
+                                <h3>SASS</h3>
+                                <img src="static/images/code_&_sass.png" />
+                            </div>
+                            <div class="img_css">
+                                <h3>CSS</h3>
+                                <img src="static/images/code_&_css.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div id="slide8" class="slide">
                         <h2 class="title">Extend/Inheritance</h2>
                         <div class="content">
                             <div class="img_sass">
@@ -107,7 +159,7 @@
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide8" class="slide">
+                    <div id="slide9" class="slide">
                         <h2 class="title">Variáveis e Listas</h2>
                         <div class="content">
                             <div class="img_sass_var">
@@ -118,7 +170,7 @@
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide9" class="slide">
+                    <div id="slide10" class="slide">
                         <h2 class="title">Each</h2>
                         <div class="content">
                             <div class="img_sass">
@@ -133,7 +185,7 @@
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide10" class="slide">
+                    <div id="slide11" class="slide">
                         <h2 class="title">Mixins</h2>
                         <div class="content">
                             <div class="img_sass_var">
@@ -144,17 +196,24 @@
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide11" class="slide">
+                    <div id="slide12" class="slide">
                         <h2 class="title">Outras Funcionalidades</h2>
                         <br />
                         <div class="content">
                             <ul class="items_install">
                                 <li>
-                                    Importação <blockquote><code>@import "variables";</code></blockquote>
+                                    Importação
+                                    <blockquote>
+                                        <code>@import "variables";</code>
+                                    </blockquote>
                                 </li>
-                                <li>Operadores <blockquote>+, -, *, /, e %;</blockquote></li>
-                                <li> Directivas 
-                                    <blockquote>@if/@debug/@else</blockquote>
+                                <li>Operadores
+                                    <blockquote>
+                                        +, -, *, /, %;
+                                    </blockquote>
+                                </li>
+                                <li> Diretivas
+                                    <blockquote>@if/@else</blockquote>
                                     <blockquote>@while</blockquote>
                                     <blockquote>@for</blockquote>
                                 </li> 
@@ -163,19 +222,19 @@
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide12" class="slide">
+                    <div id="slide13" class="slide">
                         <h2 class="title">Instalando Sass</h2>
                         <br />
                         <div class="content">
                             <ul class="items_install">
-                                <li>instalar o Ruby</li><br />
+                                <li>instalar Ruby</li><br />
                                 <li><code>sudo gem install sass</code></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="page">
-                    <div id="slide13" class="slide">
+                    <div id="slide14" class="slide">
                         <h2 class="title">Compilando Sass</h2>
                         <br />
                         <div class="content">
@@ -188,10 +247,28 @@
                                         <li><code>compass create [nome do projeto]</code><br />
                                             <span>Cria um arquivo - config.rb</span></li>
                                             <br />
-                                        <li><code>compass compile<code></li>
+                                        <li><code>compass compile</code></li>
                                     </ul>
                                 </li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div id="slide13" class="slide">
+                        <h2 class="title">Obrigado!</h2>
+                        <br/>
+                        <div class="content">
+                            <span class="description-item">
+                                Perguntas?
+                            </span>
+                            <br/><br/>
+                            <br/><br/>
+                            <a href="https://github.com/matheper/css_estilo">
+                                <span class="description-item small">
+                                    Visualizar código no GitHub
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

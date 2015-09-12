@@ -60,12 +60,17 @@ body {
 
             .description-item{
                 display: block;
-                font-size: 25px;
+                font-size: $font-normal;
                 margin-top: 10px;
+                font-weight:normal;
 
                 &.small{
-                    font-size:20px;
+                    font-size:$font-small;
                     margin-top:0px;
+                }
+
+                &.large{
+                    font-size:$font-large;
                 }
             }
 
@@ -89,13 +94,21 @@ body {
                     }
                 }
                 .items_install{
-                    font-size: 25px;
+                    font-size: $font-normal;
                     text-align: left;
+                    blockquote{
+                        font-size:$font-small;
+                    }
+                }
+                a{
+                    text-decoration:none;
+                    &:hover, &:active, &:visited{
+                        color: inherit;
+                    }
                 }
             }
         }
     }
-
 
     &.second{
         color: $text-dark;
