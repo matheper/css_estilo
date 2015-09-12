@@ -77,7 +77,7 @@ body {
   width: 800px;
   height: 600px;
   margin: 0 auto;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
 }
 /* line 55, ../sass/styles.scss */
 .wrapper .page .slide .title {
@@ -109,15 +109,18 @@ body {
 }
 /* line 83, ../sass/styles.scss */
 .wrapper .page .slide .content .img_sass_var {
-  margin: 0 auto;
   text-align: center;
 }
-/* line 87, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
+.wrapper .page .slide .content .img_sass_var img {
+  width: 395px;
+}
+/* line 89, ../sass/styles.scss */
 .wrapper .page .slide .content .items_install {
   font-size: 25px;
   text-align: left;
 }
-/* line 96, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 .wrapper.second {
   color: #656565;
 }

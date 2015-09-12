@@ -50,7 +50,7 @@ body {
             width: 800px;
             height: 600px;
             margin: 0 auto;
-            border: 3px solid black;
+            /*border: 3px solid black;*/
             
             .title{
                 font-weight:normal;
@@ -81,8 +81,10 @@ body {
                     margin-right: 10px;
                 }
                 .img_sass_var{
-                    margin: 0 auto;
                     text-align: center;
+                    img{
+                        width: 395px;
+                    }
                 }
                 .items_install{
                     font-size: 25px;
