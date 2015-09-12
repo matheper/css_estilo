@@ -68,8 +68,6 @@ body {
                 }
             }
 
-        }
-        #slide6{
             .content{
                 .img_css{
                     float: left;
@@ -82,9 +80,18 @@ body {
                     @extend .img_css;
                     margin-right: 10px;
                 }
+                .img_sass_var{
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                .items_install{
+                    font-size: 25px;
+                    text-align: left;
+                }
             }
         }
     }
+
 
     &.second{
         color: $text-dark;
