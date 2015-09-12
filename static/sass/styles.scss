@@ -25,10 +25,11 @@ body {
             padding: $padding-default;
             border-radius: 4px;
             cursor:pointer;
-        }
-        #change-color:hover{
-            background-color:$violet-dark;
-            color: $text-light;
+        
+            &:hover{
+                background-color:$violet-dark;
+                color: $text-light;
+            }
         }
         h1{
             margin:10px 0;
@@ -50,7 +51,7 @@ body {
             width: 800px;
             height: 600px;
             margin: 0 auto;
-            border: 3px solid black;
+            /*border: 3px solid black;*/
             
             .title{
                 font-weight:normal;
@@ -83,6 +84,9 @@ body {
                 .img_sass_var{
                     margin: 0 auto;
                     text-align: right;
+                    img{
+                        width: 395px;
+                    }
                 }
                 .items_install{
                     font-size: 25px;
