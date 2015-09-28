@@ -14,8 +14,8 @@ $blue-light: #C1E0E0;
 $light: #FFFFFF;
 
 $palette: (
-    first: ($violet-dark $blue $pink),
-    second: ($blue-light $blue-light $light),
+    first: ($blue-light $blue-light $light),
+    second: ($violet-dark $blue $pink),
 );
 
 @each $class, $colors in $palette{

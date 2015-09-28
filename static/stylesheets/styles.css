@@ -1,27 +1,27 @@
 /* line 23, ../sass/_variables.scss */
 .first .page:nth-child(3n+0) {
-  background-image: linear-gradient(to bottom, #8600a4, #0056ad 100%);
+  background-image: linear-gradient(to bottom, #c1e0e0, #c1e0e0 100%);
 }
 /* line 26, ../sass/_variables.scss */
 .first .page:nth-child(3n+1) {
-  background-image: linear-gradient(to bottom, #0056ad, #e666d6 100%);
+  background-image: linear-gradient(to bottom, #c1e0e0, white 100%);
 }
 /* line 29, ../sass/_variables.scss */
 .first .page:nth-child(3n+2) {
-  background-image: linear-gradient(to bottom, #e666d6, #8600a4 100%);
+  background-image: linear-gradient(to bottom, white, #c1e0e0 100%);
 }
 
 /* line 23, ../sass/_variables.scss */
 .second .page:nth-child(3n+0) {
-  background-image: linear-gradient(to bottom, #c1e0e0, #c1e0e0 100%);
+  background-image: linear-gradient(to bottom, #8600a4, #0056ad 100%);
 }
 /* line 26, ../sass/_variables.scss */
 .second .page:nth-child(3n+1) {
-  background-image: linear-gradient(to bottom, #c1e0e0, white 100%);
+  background-image: linear-gradient(to bottom, #0056ad, #e666d6 100%);
 }
 /* line 29, ../sass/_variables.scss */
 .second .page:nth-child(3n+2) {
-  background-image: linear-gradient(to bottom, white, #c1e0e0 100%);
+  background-image: linear-gradient(to bottom, #e666d6, #8600a4 100%);
 }
 
 @font-face {
@@ -37,14 +37,15 @@
 body {
   font: 100% Ubuntu, Arial, FreeSans, sans-serif;
   margin: 0px;
+  overflow: hidden;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 .wrapper {
   width: 100%;
-  color: white;
+  color: #656565;
 }
-/* line 22, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 .wrapper #slide1 #change-color {
   float: right;
   border: 1px solid;
@@ -52,12 +53,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 29, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .wrapper #slide1 #change-color:hover {
-  background-color: #8600a4;
+  background-color: #656565;
   color: white;
 }
-/* line 34, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .wrapper #slide1 h1 {
   margin: 10px 0;
   font-family: "Lobster";
@@ -139,5 +140,5 @@ body {
 }
 /* line 112, ../sass/styles.scss */
 .wrapper.second {
-  color: #656565;
+  color: white;
 }

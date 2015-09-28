@@ -12,11 +12,12 @@
 body {
     font: 100% Ubuntu, Arial, FreeSans, sans-serif;
     margin: 0px;
+    overflow:hidden;
 }
 
 .wrapper{
     width: 100%;
-    color: $text-light;
+    color: $text-dark;
 
     #slide1{
         #change-color{
@@ -27,7 +28,7 @@ body {
             cursor:pointer;
         
             &:hover{
-                background-color:$violet-dark;
+                background-color:$text-dark;
                 color: $text-light;
             }
         }
@@ -38,7 +39,6 @@ body {
             text-align: left;
             font-weight: normal;
         }
-
     }
 
     .page{
@@ -110,6 +110,6 @@ body {
     }
 
     &.second{
-        color: $text-dark;
+        color: $text-light;
     }
 }
